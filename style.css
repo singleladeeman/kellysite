@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: rgb(246, 234, 205);
+    width: 850px;
+    margin: auto;
+
+}
+
+.long{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project{
+    display: inline-block;
+}
+
+h1{
+    font-family: "Indie Flower", cursive;
+    margin-bottom: 50px;
+    color: rgb(185, 132, 234);
+    font-size: 50px;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+}
+h1:hover{
+    transform: scale(2);
+}
+p{
+    color: rgb(123, 123, 123);
+}
+a{
+    color: black;
+}
+
+img:hover{
+    box-shadow: rgba(255, 142, 56, 0.8) 0 0 90px 33px;
+}

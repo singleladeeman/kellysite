@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+}
+
+h1, h2, p{
+    background-color: rgba(235,235,235,0.555);
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+body{
+    background-image: url();
+}
+h2{
+    background-color: blanchedalmond;
+    color: aqua;
+}
+h1{
+    background-color: rgb(255, 231, 196);
+    color: rgb(224, 171, 27);
+}

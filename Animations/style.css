@@ -1,0 +1,55 @@
+.animationDisplay{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 0, 0);
+    animation-name: squareToCircle;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes squareToCircle {
+    0%{
+        border-radius: 0 0 0 0;
+        transform: rotate(0deg);
+    }
+    25%{
+        border-radius: 50% 0 0 0;
+        transform: rotate(90deg);
+    }
+    50%{
+        border-radius: 50% 50% 0 0;
+        transform: rotate(180deg);
+    }
+    75%{
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(270deg);
+    }
+    100%{
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(360deg);
+    }
+} 
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: beige;
+}
+
+h1{
+    margin-bottom: 10%;
+    
+}
+
+.container{
+    justify-self: center;
+    margin: auto;
+}
+
+h1:hover{
+    transform: scale(2);
+}
